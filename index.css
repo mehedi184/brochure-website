@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: whitesmoke;
+}
+nav{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    color: #ffff;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: black;
+    z-index: 1;
+    top: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav a {
+    color: yellow;
+}
+.logo{
+    width: 30%; text-align: left;
+    margin-right: 25%;
+    padding-left: 2%;
+    /*background: red;*/    
+}
+section{
+    width: 100%;
+    height: 100vh;
+    padding: 250px 500px 750px 650px;
+    ;
+}
