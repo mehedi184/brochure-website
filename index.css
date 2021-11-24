@@ -1,65 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    width: 100vw;
-    height: 100vh;
-    background: whitesmoke;
-    /* overflow-x: hidden; */
+body {
+  width: 100vw;
+  height: 100vh;
+  background: whitesmoke;
+  overflow-x: hidden;
 }
-nav{
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    color: #ffff;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    background: black;
-    z-index: -1;
-    top: 0;
+nav {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  color: #ffff;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  background: black;
+  z-index: -1;
+  top: 0;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 nav a {
-    color: yellow;
+  color: yellow;
 }
-.logo{
-    width: 30%; text-align: left;
-    margin-right: 25%;
-    padding-left: 2%;
-    /*background: red;*/    
+.logo {
+  width: 30%;
+  text-align: left;
+  margin-right: 25%;
+  padding-left: 2%;
+  /*background: red;*/
 }
 
-section{
-    width: 100%;
-    height: 100vh;
-    padding: 250px 500px 750px 650px;
+section {
+  width: 100%;
+  height: 100vh;
+  padding: 250px 500px 750px 650px;
 }
 footer {
-    width: 100%;
-    height: 15vh;
-    display: flex;
-    color: #ffff;
-    justify-content: space-around;
-    align-items: center;
-    position: sticky;
-    background: black;
-    z-index: -1;
-    bottom: 0;
-    right: 0;
-    left: 0;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  color: #ffff;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  background: black;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
-.four h1::before{
-    content: "Let's talk ";
-    font-size: medium;
+.four h1::before {
+  content: "Let's talk ";
+  font-size: medium;
 }
-footer #footer_copy{
-    background-color: black;
-    position: fixed;
+footer #footer_copy {
+  background-color: black;
+  position: fixed;
 }
 /* @media only screen and (min-width=700px) and {
       #navi{
